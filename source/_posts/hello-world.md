@@ -6,11 +6,10 @@ Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [docume
 ## Quick Start
 
 ### Create a new post
-
+![1](https://github.com/hujintao0309/MarkDownPhotos/raw/master/%E5%A4%B4%E5%83%8F%E7%B1%BB/l.jpg)
 ``` bash
 $ hexo new "My New Post"
 ```
-
 More info: [Writing](https://hexo.io/docs/writing.html)
 
 ### Run server
