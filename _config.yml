@@ -98,5 +98,6 @@ jsonContent:
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repository: https://github.com/hujintao0309/hujintao0309.github.io.git
-  branch: master
+  repository:
+    github: https://github.com/hujintao0309/hujintao0309.github.io.git,master
+    coding: https://git.coding.net/hujintao0309/hujintao0309.coding.me.git,master
