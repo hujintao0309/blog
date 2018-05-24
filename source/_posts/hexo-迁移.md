@@ -14,7 +14,7 @@ $ npm install hexo-migrator-rss --save
 ```
 
 插件安装完成后，执行下列命令，从 RSS 迁移所有文章。`source` 可以是文件路径或网址。
-
+<!-- more -->
 ``` bash
 $ hexo migrate rss <source>
 ```

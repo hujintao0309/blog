@@ -10,7 +10,7 @@ tags:
 ``` bash
 $ hexo generate
 ```
-
+<!-- more -->
 ### 监视文件变动
 
 Hexo 能够监视文件变动并立即重新生成静态文件，在生成时会比对文件的 SHA1 checksum，只有变动的文件才会写入。

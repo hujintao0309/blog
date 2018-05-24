@@ -12,7 +12,7 @@ Hexo 3.0 把服务器独立成了个别模块，您必须先安装 [hexo-server]
 ``` bash
 $ npm install hexo-server --save
 ```
-
+<!-- more -->
 安装完成后，输入以下命令以启动服务器，您的网站会在 `http://localhost:4000` 下启动。在服务器启动期间，Hexo 会监视文件变动并自动更新，您无须重启服务器。
 
 ``` bash

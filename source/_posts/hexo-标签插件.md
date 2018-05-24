@@ -12,7 +12,7 @@ tags:
 在文章中插入引言，可包含作者、来源和标题。
 
 **别号：** quote
-
+<!-- more -->
 ```
 {% blockquote [author[, source]] [link] [source_link_title] %}
 content

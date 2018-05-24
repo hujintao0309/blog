@@ -13,7 +13,7 @@ $ hexo init <folder>
 $ cd <folder>
 $ npm install
 ```
-
+<!-- more -->
 新建完成后，指定文件夹的目录如下：
 
 ``` plain
