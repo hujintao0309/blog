@@ -8,9 +8,9 @@ menu:
   作品展示: /works
   留言打卡: /about
   前端导航: /FrontEndGuide
-  静心阅读: /tags
-  光影之路: /instagram
-  随笔: /tags/随笔
+  # 静心阅读: /tags
+  # 光影之路: /instagram
+  # 随笔: /tags/随笔
 
 # Link to your avatar | 填写头像地址
 avatar: img/head.jpg
@@ -61,7 +61,7 @@ duoshuo:
   # http://<要填的部分>.duoshuo.com (domain只填上<>里的内容，不要填整个网址)
 
 gitment:
-  on: true
+  # on: true
   owner: hujintao0309
   repo: huijintao0309.github.io
   client_id: 

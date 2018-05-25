@@ -2,11 +2,9 @@
 title: markdown 编辑器选择
 date: 2018-02-02 10:58:54
 categories: "markdown学习之路"
+reward: true
 tags:
      - markdown
-permalink: 
-
-
 ---
 markdown虽然可以用普通的文本编辑器去编辑，但是普通编辑器只可以去编辑，而不能实时预览。
 对于经验丰富的大佬来说，windows自带的记事本已经可以通吃一切了，而对于刚上手的小白来说，不能实时预览，是一件很痛苦的事情
