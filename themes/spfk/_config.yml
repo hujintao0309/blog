@@ -130,7 +130,7 @@ tagcloud: true
 # Blogroll, Link exchange | 友情链接
 # friends: false
 friends:
-  name: http://hujintao0309.github.io/
+  我的WordPress博客: https://6a1f68c9-9575-4f04-b0f5-bcd7d7b68f6c.coding.io/
 
 # 打赏
 # 请在需要打赏的文章的md文件头部，设置属性reward: true

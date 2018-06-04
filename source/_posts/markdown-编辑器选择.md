@@ -1,7 +1,7 @@
 ---
 title: markdown 编辑器选择
 date: 2018-02-02 10:58:54
-categories: "markdown学习之路"
+categories: "markdown"
 reward: true
 tags:
      - markdown
