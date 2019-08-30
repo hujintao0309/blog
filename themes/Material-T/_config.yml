@@ -49,11 +49,11 @@ search:
 navbar:
   blog_title:  # 导航栏左侧的标题，为空则按 hexo config.title 显示
   menu:
-    Home: /
-    Archives: /archives/
-    Categories: /categories/
-    Tags: /tags/
-    About: /about/
+    主页: /
+    归档: /archives/
+    分类: /categories/
+    标签: /tags/
+    本宝宝: /about/
   
 
 #---------------------------
