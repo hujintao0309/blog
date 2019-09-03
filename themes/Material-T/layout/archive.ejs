@@ -8,7 +8,7 @@ var date_cursor = 'xxx'
 %>
 
 <div class="list-group">
-    <p class="h4">Total: <%= site.posts.length %></p>
+    <p class="h4">一共写了<%= site.posts.length %>篇文章</p>
     <hr>
     <% page.posts.each(function (post) { %>
         <% if(date(post.date, "YYYY") != date_cursor) { %>

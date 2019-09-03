@@ -9,7 +9,7 @@
 # 全局
 # Site
 #---------------------------
-favicon: /img/favicon.png
+favicon: /img/avatar.png
 apple_touch_icon: /img/apple-touch-icon.png
 title_join_string: ' ~ '  # 浏览器标签页中的标题分隔符，效果： 文章名 ~ 站点名
 highlight:
@@ -53,7 +53,7 @@ navbar:
     归档: /archives/
     分类: /categories/
     标签: /tags/
-    本宝宝: /about/
+    我: /about/
   
 
 #---------------------------
@@ -168,8 +168,17 @@ archive:
 # 分类归档页
 # Categories Page
 #---------------------------
+categories:
+  banner_img: /img/categories.jpg
+  banner_img_height: 80  # available: 0 - 100
+
+
+#---------------------------
+# 分类页
+# category Page
+#---------------------------
 category:
-  banner_img: /img/archive.jpg
+  banner_img: /img/category.jpg
   banner_img_height: 80  # available: 0 - 100
 
 
@@ -177,8 +186,8 @@ category:
 # 标签归档页
 # Tags Page
 #---------------------------
-tag:
-  banner_img: /img/archive.jpg
+tags:
+  banner_img: /img/tags.jpg
   banner_img_height: 80  # available: 0 - 100
   tagcloud: # 标签云
     min_font: 15
@@ -189,6 +198,15 @@ tag:
 
 
 #---------------------------
+# 标签页
+# Tag Page
+#---------------------------
+tag:
+  banner_img: /img/tag.jpg
+  banner_img_height: 80  # available: 0 - 100
+
+
+#---------------------------
 # 关于页
 # About Page
 #---------------------------
@@ -196,11 +214,10 @@ about:  # 以下仅为页面顶部的基本信息，更多内容请在 /Material
   banner_img: /img/about.jpg
   banner_img_height: 80  # available: 0 - 100
   avatar: /img/avatar.png # 头像
-  name: myname
-  introduce: info / info / info # 支持 HTML
+  name: 胡金涛
+  introduce: 产品经理 / 设计 / 前端 # 支持 HTML
   icons: # 更多图标可从 https://fontawesome.com/icons 查找，并以 "图标名: url" 的格式添加在下方
-    "fab fa-github": https://github.com
-    "fab fa-twitter": https://twitter.com
+    "fab fa-github": https://github.com/hujintao0309
 
 
 #---------------------------
