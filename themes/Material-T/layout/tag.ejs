@@ -9,7 +9,7 @@ var date_cursor = 'xxx'
 %>
 
 <div class="list-group">
-    <p class="h4">Total: <%= page.posts.length %></p>
+    <p class="h4">文章数量: <%= page.posts.length %> 个</p>
     <hr>
     <% page.posts.each(function (post) { %>
         <% if(date(post.date, "YYYY") != date_cursor) { %>
