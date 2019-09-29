@@ -37,9 +37,15 @@
   <% } %>
   <link rel="stylesheet" href="//at.alicdn.com/t/font_1038733_0xvrvpg9c0r.css">
   <%- css_auto_version('css/style') %>
+  <!-- require APlayer -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
+  <!-- require MetingJS -->
+  <script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
 </head>
 
 <body class="mdui-drawer-body-left">
+    <script color="255,0,0"opacity="0.9"count="159" src="//cdn.bootcss.com/canvas-nest.js/1.0.1/canvas-nest.min.js"></script>
   <%- partial('_partial/_analytics/gtm-body') %>
   <div id="nexmoe-background">
     <div class="nexmoe-bg" style="background-image: url(<%= theme.background %>)"></div>
