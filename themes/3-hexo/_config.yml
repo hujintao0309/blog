@@ -220,11 +220,11 @@ gentie:
   # 网易云跟帖暂时不支持查询评论数，所以启用时，把评论数关掉，上方comment_count: false。
 
 gitalk:
-  githubID: yelog
-  repo: yelog.github.io
-  ClientID:
-  ClientSecret:
-  adminUser: yelog
+  githubID: hujintao0309
+  repo: blogtalk
+  ClientID: a0f46750674a733054ef
+  ClientSecret: 62effbec28a184a1754b09958019c78e96840d85
+  adminUser: hujintao0309
   distractionFreeMode: true
   language: zh-CN
   perPage: 10

@@ -1,5 +1,7 @@
 ---
 title: 关于我
 date: 2018-01-31 15:34:52
+layout: about
+permalink: about.html
 ---
 我是hjt
