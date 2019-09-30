@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: L.Lawliet
+title: 胡金涛的个人博客
 subtitle: “因为我也是既幼稚，又怕输”
 description: 个人博客 随笔 技术 程序员 小程序 产品经理 前端
 author: hujintao0309
@@ -97,7 +97,42 @@ jsonContent:
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: git
+- type: git
   repository:
     github: https://github.com/hujintao0309/hujintao0309.github.io.git,master
     coding: https://git.coding.net/hujintao0309/hujintao0309.coding.me.git,master
+- type: baidu_url_submitter
+
+#设置百度主动推送
+baidu_url_submit:
+  count: 200  #比如200，代表提交最新的200个链接
+  host: hujintao0309.coding.me # 在百度站长平台中注册的域名，这个改为你自己的域名
+  token: 4EI4cWq5g9w9ESKi # 请注意这是您的秘钥， 所以请不要把博客源代码发布在公众仓库里!
+  path: baidu_urls.txt # 文本文档的地址， 新链接会保存在此文本文档里，这个默认
+
+
+# Live2D
+## https://github.com/EYHN/hexo-helper-live2d
+live2d:
+  enable: true
+  # enable: false
+  scriptFrom: local # 默认
+  pluginRootPath: live2dw/ # 插件在站点上的根目录(相对路径)
+  pluginJsPath: lib/ # 脚本文件相对与插件根目录路径
+  pluginModelPath: assets/ # 模型文件相对与插件根目录路径
+  # scriptFrom: jsdelivr # jsdelivr CDN
+  # scriptFrom: unpkg # unpkg CDN
+  # scriptFrom: https://cdn.jsdelivr.net/npm/live2d-widget@3.x/lib/L2Dwidget.min.js # 你的自定义 url
+  tagMode: false # 标签模式, 是否仅替换 live2d tag标签而非插入到所有页面中
+  debug: false # 调试, 是否在控制台输出日志
+  model:
+    use: live2d-widget-model-wanko # npm-module package name
+    # use: wanko # 博客根目录/live2d_models/ 下的目录名
+    # use: ./wives/wanko # 相对于博客根目录的路径
+    # use: https://cdn.jsdelivr.net/npm/live2d-widget-model-wanko@1.0.5/assets/wanko.model.json # 你的自定义 url
+  display:
+    position: right
+    width: 240
+    height: 300
+  mobile:
+    show: true # 手机中是否展示
